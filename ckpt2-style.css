@@ -29,20 +29,23 @@ img{
     justify-content: space-around;
     list-style: none;
     align-items: center;
+    margin-bottom: 0px;
+    margin-top: 15px;
 }
 #nav > li{
     padding: 15px;
+    margin-bottom: 0px;
 }
 #nav > li:last-child{
     font-size: 30px;
 }
-/* Home Button on sub-pages */
-#nav > li:first-child{
+
+#nav > li:first-child{/* Home Button on sub-pages */
     font-size: 30px;
 }
 h1{
     color:white;
-    margin-top: 10%;
+    margin-top: 12.5%;
     font-size: 3rem;
     margin-bottom: none;
     text-align: center;
@@ -93,9 +96,39 @@ main{
     margin-top: 25px;
 }
 /* From About Me */
+.iframe-container{ 
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    margin-top: .5rem;
+    height: 0;
+}
 
+.iframe-container iframe{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+}
 
 /* From Bacon sites */
+.Bacon1{
+    color: white;
+    font-family: 'ZCOOL XiaoWei', serif;
+    padding: 5%;
+}
+#subpghdr1{
+    background:  #34A8DD;
+}
+#subpghdr2{
+    background:  #F46731;
+}
+#subpghdr3{
+    background:  #2ACDBF;
+}
+
+
 
 /* Tablet View */
 @media (max-width: 576px) {
@@ -105,13 +138,19 @@ main{
 main{
     background: whitesmoke;
 }
+body{
+    background:whitesmoke;
+}
 .bigbox{
     color: black;
 }
 a:visited{
     color: black;
 }
-
+.Bacon1{
+    color:black;
+    background-color: whitesmoke;
+}
 
 
 }
