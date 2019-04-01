@@ -2,6 +2,9 @@
 a:visited{
     color: white;
 }
+a:link{
+    color: white;
+}
 /* Upper Section */
 body{
     margin: auto;
@@ -145,6 +148,9 @@ body{
     color: black;
 }
 a:visited{
+    color: black;
+}
+a:link{
     color: black;
 }
 .Bacon1{
